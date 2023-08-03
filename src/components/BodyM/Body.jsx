@@ -42,14 +42,12 @@ const BodyM = () => {
           </div>
          
         </div>
-        <div className='absolute flex item justify-center bottom-[-30%] w-[100%] ' >
+        <div className=' flex item justify-center mt-[-40px] w-[100%] ' >
       <img className='  w-[44.27083333333333%] ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=0116e5ab-5f26-4d42-98bb-4cc14e7d0d36&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
+      <img className=' bottom-3 absolute w-[33.541666666666664%] ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=c6065532-ea1a-4b74-a0ce-f4f27866358f&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
 
       </div>
-      <div className='absolute flex item justify-center bottom-[-23.7%] w-[100%] ' >
-      <img className='  w-[33.541666666666664%] ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=c6065532-ea1a-4b74-a0ce-f4f27866358f&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
-
-      </div>
+      
       </div>
       <div className=  ' flex justify-between items-end w-[100%] px-[1rem] h-auto ' >
         
