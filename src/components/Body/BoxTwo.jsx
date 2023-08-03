@@ -29,7 +29,7 @@ const BoxTwo = ({num}) => {
        animate={control}
       className='box flex flex-col items-end w-[50%] gap-[37px] justify-start ' >
         <div className=' flex justify-center w-[424px] h-[424px] circle_w_d  ' >
-            <img className=' w-[269px] h-[398px] ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=7d25c87a-85af-42ef-a36c-955561e8ddfa&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
+            <img className=' w-[269px] h-[398px] rounded-2xl ' src="https://i.pinimg.com/originals/32/21/61/3221613143387aed3acfa477f0c33e22.png" alt=""/>
          </div>
    </motion.div>
   )
