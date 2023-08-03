@@ -13,16 +13,20 @@ const BoxFour = ({num}) => {
             id:'none'
         },
 {
-    id:'none'
+    id:'none',
+    key:'1'
 },
 {
-    id:'none'
+    id:'none',
+    key:'2'
 },
 {
-    id:'none'
+    id:'none',
+    key:'3'
 },
 {
-    id:'none'
+    id:'none',
+    key:'4'
 },
     ]
 
@@ -59,6 +63,8 @@ const BoxFour = ({num}) => {
         // 👇️ hides element (still takes up space on page)
         // box.style.visibility = 'hidden';
       }, 2000); // 👈️ time in milliseconds
+
+      
   return (
     <motion.div
     ref={ref}
@@ -70,7 +76,7 @@ const BoxFour = ({num}) => {
         {
             loader?.map(data =>{
                 return(
-                    <div id={data.id} className='flex text-[#ffffff] w-[680px] min-h-[76px] cursor-pointer  items-center justify-start gap-[20px] data-box-active px-[22px]' >
+                    <div key={data.key} id={data.id} className='flex text-[#ffffff] w-[680px] min-h-[76px] cursor-pointer  items-center justify-start gap-[20px] data-box-active px-[22px]' >
                         Loading . . .
                     </div>
                 )
@@ -81,7 +87,7 @@ const BoxFour = ({num}) => {
        {
         post?.map(post =>{
             return(
-                <DataBoxM   post={post} />
+                <DataBoxM key={post?.id}   post={post} />
             )
         })
        }
