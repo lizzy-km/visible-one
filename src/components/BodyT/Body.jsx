@@ -1,0 +1,85 @@
+import React from 'react'
+
+import BoxOne from './BoxOne';
+import BoxTwo from './BoxTwo';
+import BoxThree from './BoxThree';
+import BoxFour from './BoxFour';
+import BoxFive from './BoxFive';
+
+const BodyT = () => {
+  
+  return (
+    <div className=' flex flex-col w-[100%] gap-[12rem] h-auto justify-center items-center ' >
+      <div className='relative  h-auto justify-start items-start w-[100%] flex flex-col ' >
+        <div className='hero  h-auto gap-[25px] text-[#ffffff] w-[100%]  bg-[#12121278] flex items-center flex-col ' >
+          <div className=' h-auto px-[1rem] gap-[10px] text-[#ffffff] w-[100%]  bg-[#12121278] flex items-center flex-col '>
+          <p className=' text-[35px] pt-[24px] ' >TRIPPRO - AN ECOMMERCE SOLUTION</p>
+          <p className=' font-light w-[80%] text-center text-[14px]  ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+          <div className=' px-[4rem] pb-[9rem]  w-[100%] justify-between    flex items-center ' >
+            <div className='   flex items-center gap-[15px]  ' >
+            <h1 className=' font-semibold text-[20px]  ' >Built for:</h1>
+            <img className=' w-[40px] h-[40px]  ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=d2d1e94f-748d-435e-90e5-35698b84b025&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
+         
+            </div>
+            <div className='   flex justify-center items-center  gap-[5px]  ' >
+            <div className='flex flex-col   ' >
+              <p className=' text-[20px] '>Technologies:</p>
+              <p className=' text-[20px] font-semibold ' >Wordpress</p>
+            </div>
+            <img className=' w-[40px] h-[40px] object-cover ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=fd2bffb4-1b6e-42b3-bd4e-537f83a26356&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
+         
+            </div>
+            <div className='   flex justify-center items-center  gap-[5px]  ' >
+            <div className='flex flex-col   ' >
+              <p className=' text-[20px] '>Industry:</p>
+              <p className=' text-[20px] font-semibold ' >Ecommerce</p>
+            </div>
+            <img className=' w-[40px] h-[40px] object-cover ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=f2785c1c-c116-4fd9-be57-9cdf0d69906d&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
+         
+            </div>
+            </div>
+          
+          </div>
+         
+        </div>
+        <div className='absolute flex item justify-center bottom-[-30%] w-[100%] ' >
+      <img className='  w-[44.27083333333333%] ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=0116e5ab-5f26-4d42-98bb-4cc14e7d0d36&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
+
+      </div>
+      <div className='absolute flex item justify-center bottom-[-23%] w-[100%] ' >
+      <img className='  w-[33.541666666666664%] ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=c6065532-ea1a-4b74-a0ce-f4f27866358f&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
+
+      </div>
+      </div>
+      <div className=  ' flex justify-between items-center w-[100%] px-[1rem] h-auto ' >
+        
+        <BoxOne num={1} />
+       
+
+        <BoxTwo num={2} />
+      </div>
+
+      <div className=  ' flex justify-between gap-[51px] items-center w-[100%] px-[1rem] h-auto '>
+        <BoxThree/>
+        <div className=' flex flex-col w-[100%] h-[100%] items-start justify-start gap-4 ' >
+        <div className=' text-[26px] justify-start font-bold flex gap-2 ' >
+                <h1>OUR</h1>
+                <h1 className=' text-[#2DC4EA] ' >CHALLENGES</h1>
+            </div>
+            <BoxFour/>
+
+            <div className=' cursor-pointer flex items-center justify-center w-[120px] h-[54px] View rounded-[50px] ' >
+            <p className=' text-[14px] text-[#ffffff] font-bold ' >VIEW MORE</p>
+        </div>
+        </div>
+      </div>
+
+      <div className=' w-[100%] ' >
+        <BoxFive/>
+      </div>
+      
+    </div>
+  )
+}
+
+export default BodyT

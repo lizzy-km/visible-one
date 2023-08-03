@@ -1,0 +1,19 @@
+*::-webkit-scrollbar{
+    display: none;
+}
+*{
+    scrollbar-width: none;
+}
+.phone{
+    box-shadow: inset 0px 0px 2px 2px #787878c4, 0px 0px 4px #121212a4;
+}
+.desktop{
+    background-image: url('/src/assets/Desktop.svg');
+    background-size: cover;
+}
+.speaker{
+    box-shadow: inset 0px -3px 2px #121212;
+}
+.homek{
+    box-shadow: inset 0px 0px 3px #121212c4, 0px 0px 2px #121212a4 ;
+}
