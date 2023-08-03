@@ -9,7 +9,7 @@ import './box.css'
 
 const BoxFive = ({num}) => {
     const boxVariant = {
-        visible: { opacity: 1, scale: 1, transition: { duration: 0.8 } },
+        visible: { opacity: 1, scale: 1, transition: { duration: 0.4 } },
         hidden: { opacity: 0, scale: 0 }
       };
     
