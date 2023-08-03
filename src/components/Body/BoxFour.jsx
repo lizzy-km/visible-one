@@ -64,8 +64,8 @@ const BoxFour = () => {
        variants={boxVariant}
        initial="hidden"
        animate={control}
-      className='box flex flex-col items-start w-[438px] pl-[5px] scroll-w-0  overflow-auto gap-[34px] max-h-[552px] justify-between ' >
-        <div id='none' className=' px-[10px] flex flex-col items-start w-[100%] overflow-auto gap-[34px] max-h-[552px] justify-between  ' >
+      className='box flex flex-col items-start w-[438px] pl-[5px] scroll-w-0  overflow-auto gap-[30px] max-h-[470px] justify-between ' >
+        <div id='none' className=' px-[10px] flex flex-col items-start w-[100%] overflow-auto gap-[34px] max-h-[470px] justify-between  ' >
         {
             loader?.map(data =>{
                 return(

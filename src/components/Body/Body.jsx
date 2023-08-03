@@ -68,7 +68,7 @@ const Body = () => {
             </div>
             <BoxFour/>
 
-            <div className=' cursor-pointer flex items-center justify-center w-[120px] h-[54px] View rounded-[50px] ' >
+            <div className=' cursor-pointer flex items-center justify-center w-[120px] h-[50px] View rounded-[50px] ' >
             <p className=' text-[14px] text-[#ffffff] font-bold ' >VIEW MORE</p>
         </div>
         </div>
