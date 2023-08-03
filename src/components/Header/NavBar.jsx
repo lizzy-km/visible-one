@@ -33,7 +33,7 @@ const NavBar = () => {
                 <IconFileDescription />
                 <p className=' font-medium text-sm ' >QUOTE</p>
             </div>
-            <div className=' text-[#26a9e1] flex items-center border-[#26a9e1] border-2 px-[6px] py-[3px]   ' >
+            <div className=' text-[#26a9e1] cursor-pointer flex items-center border-[#26a9e1] border-2 px-[6px] py-[3px]   ' >
                <p>SG EN</p> 
                <IconCaretDown/>
             </div>
@@ -41,25 +41,25 @@ const NavBar = () => {
         </div>
 
         <div className='max-[500px]:px-[1rem] px-[10rem] flex justify-end items-center ' >
-            <div className=' text-[10px] flex gap-4 font-medium justify-between items-center py-[10px] ' >
+            <div className=' cursor-pointer text-[10px] flex gap-4 font-medium justify-between items-center py-[10px] ' >
                 <div>Home</div>
-                <div className=' flex items-center text-[#26a9e1] font-medium ' >
+                <div className=' cursor-pointer flex items-center text-[#26a9e1] font-medium ' >
                     <p>Services</p>
                     <IconChevronDown/>
                 </div>
-                <div className=' flex items-center font-medium ' >
+                <div className=' cursor-pointer flex items-center font-medium ' >
                     <p>Company</p>
                     <IconChevronDown/>
                 </div>
-                <div className=' flex items-center font-medium ' >
+                <div className=' cursor-pointer flex items-center font-medium ' >
                     <p>Blog</p>
                     <IconChevronDown/>
                 </div>
-                <div className=' flex items-center font-medium ' >
+                <div className=' cursor-pointer flex items-center font-medium ' >
                     <p>Contact Us</p>
                     <IconChevronDown/>
                 </div>
-                <div className=' w-[15px] text-sm flex items-center ' >
+                <div className=' cursor-pointer w-[15px] text-sm flex items-center ' >
                 <IconSearch/>
                 </div>
 

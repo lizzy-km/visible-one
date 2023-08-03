@@ -66,6 +66,10 @@ li {
   list-style-type: initial;
   font-size: smaller;
   margin-left: 1.5rem;
+  cursor: pointer;
+}
+.btn{
+  cursor: pointer;
 }
 
 .fot {

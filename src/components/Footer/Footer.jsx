@@ -72,7 +72,7 @@ const Footer =()=>{
                   </ul>
 
                   <div className=' flex gap-3 items-center ' >
-                    <p className=' bg-[#26a9e1] p-[.7rem]  ' >Contact us</p>
+                    <p className=' bg-[#26a9e1] p-[.7rem] btn  ' >Contact us</p>
                     <p className=' text-[#26a9e1] ' >Contact HK Office</p>
                   </div>
 
@@ -95,7 +95,7 @@ const Footer =()=>{
                   <div className=' flex items-center  gap-3  ' >
                                       <input placeholder='example@gmail.com' className=' w-[250px] bg-transparent border-[1px] h-[40px] px-[10px] tracking-wider ' type="email" name="" id="" />
 
-                    <p className='bg-[#26a9e1] flex items-center px-[1.4rem] h-[40px]' >
+                    <p className='bg-[#26a9e1] btn flex items-center px-[1.4rem] h-[40px]' >
                       <p>Submit</p>
                     </p>
                   </div>
