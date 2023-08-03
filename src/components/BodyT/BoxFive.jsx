@@ -45,7 +45,7 @@ const BoxFive = ({num}) => {
            setDesk(' ml-[-920px] w-[100%] h-auto flex flex-col items-end bg-   ')
          }} className={Desk} >
            <div className=' flex justify-start items-center w-[30%] h-[200px]  '>
-             <img className=' h-[126.1px] mt-[5px] pr-[10px]  ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=19a053e0-68aa-4b1d-8e6a-4cbdc7db6ce7&api_key=CometServer1&access_token=1691074605_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_d945895615534b19a96f44895df8b28a12aaf9cb" alt=""/>
+             <img className=' h-[126.1px] mt-[5px] pr-[10px]  ' src="https://raw.githubusercontent.com/lizzy-km/cloudy-km/24855a5d903aa1f78e54b53437219ae01d031452/trippro.com.hk_cn_%402x.png" alt=""/>
            </div>
              <div className='relative justify-end flex items-end w-[100%] h-auto py-[1rem] data-box-active ' >
                <div className=' z-[99999] p-[7px] flex justify-start items-start rounded-[8px] desktop absolute left-5 top-[-50%] h-[168px] w-[239px]' >
