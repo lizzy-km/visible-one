@@ -38,10 +38,11 @@ const boxVariant = {
             
         </div>
     <div className=' mt-[-10px] ' >
-        <p className=' text-[18px] ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita</p>
+        <p className=' text-[18px] ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        </p>
     </div>
 
-    <div className=' button-grd flex justify-center items-center w-[280px] h-[74px] rounded-[50px] ' >
+    <div className=' data-box-active cursor-pointer flex justify-center items-center w-[280px] h-[74px] rounded-[50px] ' >
         <p className= 'text-[20px] text-[#fff] ' >TOUR TO WEBSITE</p>
     </div>
   </motion.div>

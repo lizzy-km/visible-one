@@ -13,8 +13,8 @@ const BodyM = () => {
       <div className='relative h-auto justify-start items-start w-[100%] flex flex-col ' >
         <div className='heroM  h-auto pb-[1rem]  gap-[5px] text-[#ffffff] w-[100%]  bg-[#12121278] flex items-center flex-col ' >
           <div className='px-[1rem]  h-auto pb-[3rem] gap-[5px] text-[#ffffff] w-[100%]  bg-[#12121278] flex items-center flex-col '>
-          <p className=' text-[18px] pt-[34px] ' >TRIPPRO - AN ECOMMERCE SOLUTION</p>
-          <p className=' font-light w-[80%] text-center text-[10px]   ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+          <p className=' text-[16px] pt-[34px] ' >TRIPPRO - AN ECOMMERCE SOLUTION</p>
+          <p className=' font-light w-[100%] text-center text-[10px]   ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
           <div className=' px-[1rem]  w-[100%%] justify-between gap-4   flex items-center ' >
             <div className=' w-[33%] h-[33px] flex items-center gap-[5px]  ' >
             <h1 className=' font-semibold text-[10px]  ' >Built for:</h1>

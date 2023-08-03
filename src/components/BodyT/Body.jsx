@@ -13,26 +13,26 @@ const BodyT = () => {
       <div className='relative  h-auto justify-start items-start w-[100%] flex flex-col ' >
         <div className='hero  h-auto gap-[25px] text-[#ffffff] w-[100%]  bg-[#12121278] flex items-center flex-col ' >
           <div className=' h-auto px-[1rem] gap-[10px] text-[#ffffff] w-[100%]  bg-[#12121278] flex items-center flex-col '>
-          <p className=' text-[35px] pt-[24px] ' >TRIPPRO - AN ECOMMERCE SOLUTION</p>
-          <p className=' font-light w-[80%] text-center text-[14px]  ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-          <div className=' px-[4rem] pb-[9rem]  w-[100%] justify-between    flex items-center ' >
+          <p className=' text-[32px] font-light pt-[24px] ' >TRIPPRO - AN ECOMMERCE SOLUTION</p>
+          <p className=' font-light w-[100%] text-center text-[14px]  ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+          <div className=' px-[4rem] pb-[9rem]  w-[100%] justify-center gap-3   flex items-center ' >
             <div className='   flex items-center gap-[15px]  ' >
-            <h1 className=' font-semibold text-[20px]  ' >Built for:</h1>
+            <h1 className=' font-semibold text-[18px]  ' >Built for:</h1>
             <img className=' w-[40px] h-[40px]  ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=d2d1e94f-748d-435e-90e5-35698b84b025&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
          
             </div>
             <div className='   flex justify-center items-center  gap-[5px]  ' >
             <div className='flex flex-col   ' >
-              <p className=' text-[20px] '>Technologies:</p>
-              <p className=' text-[20px] font-semibold ' >Wordpress</p>
+              <p className=' text-[18px] '>Technologies:</p>
+              <p className=' text-[18px] font-semibold ' >Wordpress</p>
             </div>
             <img className=' w-[40px] h-[40px] object-cover ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=fd2bffb4-1b6e-42b3-bd4e-537f83a26356&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
          
             </div>
             <div className='   flex justify-center items-center  gap-[5px]  ' >
             <div className='flex flex-col   ' >
-              <p className=' text-[20px] '>Industry:</p>
-              <p className=' text-[20px] font-semibold ' >Ecommerce</p>
+              <p className=' text-[18px] '>Industry:</p>
+              <p className=' text-[18px] font-semibold ' >Ecommerce</p>
             </div>
             <img className=' w-[40px] h-[40px] object-cover ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=f2785c1c-c116-4fd9-be57-9cdf0d69906d&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
          
@@ -68,7 +68,7 @@ const BodyT = () => {
             </div>
             <BoxFour/>
 
-            <div className=' cursor-pointer flex items-center justify-center w-[120px] h-[54px] View rounded-[50px] ' >
+            <div className=' cursor-pointer flex items-center justify-center w-[118px] h-[54px] View rounded-[50px] ' >
             <p className=' text-[14px] text-[#ffffff] font-bold ' >VIEW MORE</p>
         </div>
         </div>

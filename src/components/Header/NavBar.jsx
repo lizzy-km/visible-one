@@ -15,13 +15,13 @@ const NavBar = () => {
                 <IconPhone />
                 <p className=' font-medium text-sm ' > 6248 0838 </p>
             </div>
-            {/* <div className=' flex items-center gap-1 ' >
+            <div className=' flex items-center gap-1 ' >
                 <div className=' border-[1px] flex items-center justify-center rounded-full h-[24px] border-[#26a9e1] '>
                 <IconPhone />
 
                 </div>
                 <p className=' font-medium text-sm ' > 8484 9984 </p>
-            </div> */}
+            </div>
             <div className=' flex items-center ' >
                 <div  >
                 <IconMail />
@@ -41,7 +41,7 @@ const NavBar = () => {
         </div>
 
         <div className='max-[500px]:px-[1rem] px-[10rem] flex justify-end items-center ' >
-            <div className=' flex gap-4 font-medium justify-between items-center py-[10px] ' >
+            <div className=' text-[10px] flex gap-4 font-medium justify-between items-center py-[10px] ' >
                 <div>Home</div>
                 <div className=' flex items-center text-[#26a9e1] font-medium ' >
                     <p>Services</p>
