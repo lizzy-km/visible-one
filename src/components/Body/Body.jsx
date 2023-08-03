@@ -63,15 +63,17 @@ const Body = () => {
       </div>
 
       <div className=  ' flex justify-between gap-[51px] items-center w-[100%] px-[10rem] h-auto '>
+       
         <BoxThree/>
-        <div className=' flex flex-col h-[100%] items-start justify-start gap-4 ' >
-        <div className=' text-[36px] font-bold flex gap-2 ' >
+        <div className=' flex w-[50%] flex-col h-[100%] items-start justify-start gap-4 ' >
+        <div className=' h-[10%] text-[36px] font-bold flex gap-2 ' >
                 <h1>OUR</h1>
                 <h1 className=' text-[#2DC4EA] ' >CHALLENGES</h1>
             </div>
+
             <BoxFour/>
 
-            <div className=' cursor-pointer flex items-center justify-center w-[120px] h-[50px] View rounded-[50px] ' >
+            <div className='  cursor-pointer flex items-center justify-center w-[150px] h-[50px] View rounded-[50px] ' >
             <p className=' text-[14px] text-[#ffffff] font-bold ' >VIEW MORE</p>
         </div>
         </div>

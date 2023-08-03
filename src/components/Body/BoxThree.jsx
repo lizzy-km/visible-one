@@ -30,8 +30,8 @@ const BoxThree = ({num}) => {
        variants={boxVariant}
        initial="hidden"
        animate={control}
-      className='box flex items-start w-[100%] justify-between ' >
-        <div className='  min-w-[538px] h-[452px] bg-cube object-cover   ' >
+      className='box flex items-center w-[50%] h-full justify-between ' >
+        <div className='  w-[100%] h-[80%]  bg-cube    ' >
          </div>
          
    </motion.div>
