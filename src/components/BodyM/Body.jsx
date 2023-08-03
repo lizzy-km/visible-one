@@ -11,7 +11,7 @@ const BodyM = () => {
   return (
     <div className=' overflow-x-hidden flex flex-col w-[100%] gap-[10rem] h-auto justify-center items-center ' >
       <div className='relative h-auto justify-start items-start w-[100%] flex flex-col ' >
-        <div className='heroM  h-auto  gap-[5px] text-[#ffffff] w-[100%]  bg-[#12121278] flex items-center flex-col ' >
+        <div className='heroM  h-auto pb-[1rem]  gap-[5px] text-[#ffffff] w-[100%]  bg-[#12121278] flex items-center flex-col ' >
           <div className='px-[1rem]  h-auto pb-[3rem] gap-[5px] text-[#ffffff] w-[100%]  bg-[#12121278] flex items-center flex-col '>
           <p className=' text-[18px] pt-[34px] ' >TRIPPRO - AN ECOMMERCE SOLUTION</p>
           <p className=' font-light w-[80%] text-center text-[10px]   ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
@@ -42,11 +42,11 @@ const BodyM = () => {
           </div>
          
         </div>
-        <div className='absolute flex item justify-center bottom-[-27%] w-[100%] ' >
+        <div className='absolute flex item justify-center bottom-[-30%] w-[100%] ' >
       <img className='  w-[44.27083333333333%] ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=0116e5ab-5f26-4d42-98bb-4cc14e7d0d36&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
 
       </div>
-      <div className='absolute flex item justify-center bottom-[-21.7%] w-[100%] ' >
+      <div className='absolute flex item justify-center bottom-[-23.7%] w-[100%] ' >
       <img className='  w-[33.541666666666664%] ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=c6065532-ea1a-4b74-a0ce-f4f27866358f&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
 
       </div>

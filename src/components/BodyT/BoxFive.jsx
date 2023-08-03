@@ -25,7 +25,7 @@ const BoxFive = ({num}) => {
       }, [control, inView]);
 
       const[mobile,setMobile] = useState(' mr-[-920px] w-[100%] h-auto flex flex-col items-center ')
-      const[Desk,setDesk] = useState('  w-[100%] h-auto py-[2rem] flex justify-end flex-col items-end  bg-    ')
+      const[Desk,setDesk] = useState('  mr-[0px] mb-[-2rem] w-[100%] h-auto py-[2rem] flex flex-col items-center    ')
  
  
    return (
@@ -34,18 +34,18 @@ const BoxFive = ({num}) => {
         variants={boxVariant}
         initial="hidden"
         animate={control}
-       className='box flex h-auto items-end overflow-y-hidden overflow-x-hidden max-w-[100%] justify-between ' >
+       className='box flex mt-[-6rem] h-auto items-end overflow-y-hidden overflow-x-hidden max-w-[100%] justify-between ' >
          <div
          onDrag={()=>{
            setMobile(' mr-[0px]  w-[100%] h-auto flex flex-col items-center ')
            setDesk(' ml-[-920px] w-[100%] h-auto flex flex-col items-end bg-   ')
          }}
           onClick={()=>{
-           setMobile(' mr-[0px]  w-[100%] h-auto flex flex-col items-center  ')
+           setMobile(' mr-[-10px]  w-[103%] h-auto flex flex-col items-center  ')
            setDesk(' ml-[-920px] w-[100%] h-auto flex flex-col items-end bg-   ')
          }} className={Desk} >
-           <div className=' flex justify-center items-center w-[80%] h-full  '>
-             <img className=' h-[146.1px] mt-[10px] pr-[10px]  ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=be2db83b-91b6-454c-badc-e32fb4af7930&api_key=CometServer1&access_token=1691074605_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_d945895615534b19a96f44895df8b28a12aaf9cb" alt=""/>
+           <div className=' flex justify-start items-center w-[30%] h-[200px]  '>
+             <img className=' h-[126.1px] mt-[5px] pr-[10px]  ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=be2db83b-91b6-454c-badc-e32fb4af7930&api_key=CometServer1&access_token=1691074605_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_d945895615534b19a96f44895df8b28a12aaf9cb" alt=""/>
            </div>
              <div className='relative justify-end flex items-end w-[100%] h-auto py-[1rem] data-box-active ' >
                <div className=' z-[99999] p-[14px] flex justify-start items-start rounded-[8px] desktop absolute left-5 top-[-50%] h-[168px] w-[239px]' >
@@ -53,7 +53,7 @@ const BoxFive = ({num}) => {
                </div>
                <div className=' w-[100%] flex flex-col justify-start items-start gap-6 p-[1rem] ' >
                  <div>
-                   <h1 className=' text-[15px] font-bold text-[#ffffff] ' >Their Old Website & Problems</h1>
+                   <h1 className=' text-[25px] font-bold text-[#ffffff] ' >Their Old Website & Problems</h1>
                  </div>
                  <div className=' flex flex-col gap-1 justify-start items-start ' >
                    <div className=' text-[12px] w-[100%] text-[#ffffff] flex gap-1 ' >
@@ -61,21 +61,21 @@ const BoxFive = ({num}) => {
                      <IconArrowRight/>
                      </div>
                     
-                     <p className=' text-[12px]  ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                     <p className='   ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
                    </div>
                    <div className=' text-[18px] w-[100%] text-[#ffffff] flex gap-1 ' >
                      <div className=' w-[13%] ' >
                      <IconArrowRight/>
                      </div>
                     
-                     <p className='text-[12px]   ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                     <p className='   ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
                    </div>
                    <div className=' text-[18px] w-[100%] text-[#ffffff] flex gap-1 ' >
                      <div className=' w-[13%] ' >
                      <IconArrowRight/>
                      </div>
                     
-                     <p className=' text-[12px]  ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                     <p className='   ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
                    </div>
                  </div>
                  <div className=' cursor-pointer flex text-[#ffffff] p ' >
@@ -99,22 +99,22 @@ const BoxFive = ({num}) => {
           <div
           onDrag={()=>{
            setMobile(' mr-[-920px] w-[100%] h-auto flex flex-col items-center  ')
-           setDesk(' mr-[0px] w-[100%] h-auto flex flex-col items-center bg-   ')
+           setDesk(' mr-[0px] mb-[-2rem] w-[100%] h-auto flex flex-col items-center bg-   ')
          }}
           onClick={()=>{
            setMobile(' mr-[-920px] w-[100%] h-auto flex flex-col items-center  ')
-           setDesk(' mr-[0px] w-[100%] h-auto py-[2rem] flex flex-col items-center   ')
+           setDesk(' mr-[0px] mb-[-2rem] w-[100%] h-auto py-[2rem] flex flex-col items-center   ')
          }} 
            className={mobile} >
  
-             <div className=' flex justify-end  gap-4 items-center w-[20%] h-[200px] bg-[#ffffff] '>
+             <div className=' flex justify-end  gap-4 items-center w-[65%] mb-[-20px] h-[220px] bg-[#ffffff] '>
              <img className='ml-[0rem] w-[65.2px] h-[152px]  border-[#444444] border-[1px] rounded-md  ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=2e7c90db-230c-4df2-8788-be92455d7de7&api_key=CometServer1&access_token=1691074605_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_d945895615534b19a96f44895df8b28a12aaf9cb" alt=""/>
              <img className=' w-[65.2px] h-[152px]  border-[#444444] border-[1px] rounded-md  ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=0008a866-5842-4e4b-baed-0d3d58a17036&api_key=CometServer1&access_token=1691074605_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_d945895615534b19a96f44895df8b28a12aaf9cb" alt=""/>
              <img className=' w-[65.2px] h-[152px]  border-[#444444] border-[1px] rounded-md  ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=f01fb4f1-224f-46e7-9e19-fd59fef21792&api_key=CometServer1&access_token=1691074605_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_d945895615534b19a96f44895df8b28a12aaf9cb" alt=""/>
  
              </div>
                <div className='relative w-[100%] mr-[-10px] flex justify-center items-start h-auto data-box-active ' >
-               <div className=' flex py-[5px] flex-col justify-between phone absolute left-[60%] top-[-58%] w-[100.542px] rounded-[30px] h-[210px] bg-[#ffffff] ' >
+               <div className=' flex py-[5px] flex-col justify-between phone absolute left-[85%] top-[-58%] w-[100.542px] rounded-[30px] h-[210px] bg-[#ffffff] ' >
                    <div className=' flex flex-col w-[100%] justify-start items-center gap-2 py-[.2rem] ' >
                      <div className=' w-[3px] h-[3px] rounded-full bg-[#121212] ' >
                        

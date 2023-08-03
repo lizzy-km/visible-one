@@ -8,9 +8,9 @@ import {IconMail,
 
 const FooterT =()=>{
   return (
-    <div className=' footerT flex w-[100%] h-[400px] ' >
-        <div className=' flex flex-col text-slate-100 w-[100%] h-[100%] bg-[#12121294] footer_b px-[4rem] py-[1rem] justify-between ' >
-              <div className='flex w-[100%] h-[67%] justify-between  ' >
+    <div className=' footerT flex w-[100%] h-auto ' >
+        <div className=' flex flex-col text-slate-100 w-[100%] h-auto bg-[#12121294] footer_b px-[4rem] py-[1rem] justify-between ' >
+              <div className='flex w-[100%] h-auto justify-between  ' >
                 
                 <div className=' gap-3 flex flex-col justify-start items-start ' >
                   <ul className='gap-2 flex flex-col  font-light  ' ><h1 className=' py-[1rem] ' >QUICK LINKS</h1> 
@@ -78,7 +78,7 @@ const FooterT =()=>{
 
                 </div>
               </div>
-              <div className='flex w-[100%] border-t-[1px] border-b-[1px] border-slate-400 py-[.5rem]  h-[20%] justify-between  ' >
+              <div className='flex w-[100%] border-t-[1px] border-b-[1px] border-slate-400 py-[.5rem]  h-auto justify-between  ' >
                 <div className=' flex items-end justify-start gap-10 w-[60%] ' >
                   <img className=' h-[40px] '  src="/src/assets/shopify-2.svg" alt=""/>
                   <img className=' h-[40px] '  src="/src/assets/paypal-3.svg" alt=""/>

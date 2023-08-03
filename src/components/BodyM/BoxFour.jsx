@@ -65,7 +65,7 @@ const BoxFour = ({num}) => {
        variants={boxVariant}
        initial="hidden"
        animate={control}
-      className='box flex flex-col items-start w-[100%] pl-[5px] scroll-w-0  overflow-auto gap-[14px] max-h-[352px] justify-between ' >
+      className='box flex flex-col items-start w-[100%] pl-[5px] scroll-w-0  overflow-hidden gap-[14px] max-h-[352px] justify-between ' >
         <div id='none' className=' flex flex-col items-start w-[100%] overflow-auto gap-[16px] max-h-[352px] justify-between  ' >
         {
             loader?.map(data =>{
