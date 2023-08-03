@@ -18,7 +18,7 @@ const BodyT = () => {
           <div className=' px-[4rem] pb-[9rem]  w-[100%] justify-center gap-3   flex items-center ' >
             <div className='   flex items-center gap-[15px]  ' >
             <h1 className=' font-semibold text-[18px]  ' >Built for:</h1>
-            <img className=' w-[40px] h-[40px]  ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=d2d1e94f-748d-435e-90e5-35698b84b025&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
+            <img className=' w-[40px] h-[40px]  ' src="/src/assets/responsive.svg" alt=""/>
          
             </div>
             <div className='   flex justify-center items-center  gap-[5px]  ' >
@@ -26,7 +26,7 @@ const BodyT = () => {
               <p className=' text-[18px] '>Technologies:</p>
               <p className=' text-[18px] font-semibold ' >Wordpress</p>
             </div>
-            <img className=' w-[40px] h-[40px] object-cover ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=fd2bffb4-1b6e-42b3-bd4e-537f83a26356&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
+            <img className=' w-[40px] h-[40px] object-cover ' src="/src/assets/wordpress-development-logo-banner.svg" alt=""/>
          
             </div>
             <div className='   flex justify-center items-center  gap-[5px]  ' >
@@ -34,7 +34,7 @@ const BodyT = () => {
               <p className=' text-[18px] '>Industry:</p>
               <p className=' text-[18px] font-semibold ' >Ecommerce</p>
             </div>
-            <img className=' w-[40px] h-[40px] object-cover ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=f2785c1c-c116-4fd9-be57-9cdf0d69906d&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
+            <img className=' w-[40px] h-[40px] object-cover ' src="/src/assets/shopping-cart.svg" alt=""/>
          
             </div>
             </div>
@@ -43,11 +43,11 @@ const BodyT = () => {
          
         </div>
         <div className='absolute flex item justify-center bottom-[-30%] w-[100%] ' >
-      <img className='  w-[44.27083333333333%] ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=0116e5ab-5f26-4d42-98bb-4cc14e7d0d36&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
+      <img className='  w-[44.27083333333333%] ' src="https://raw.githubusercontent.com/lizzy-km/cloudy-km/479a4cabe811fd96ce7f802147b1485a6bc2303b/Laptop%402x.png" alt=""/>
 
       </div>
       <div className='absolute flex item justify-center bottom-[-23%] w-[100%] ' >
-      <img className='  w-[33.541666666666664%] ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=c6065532-ea1a-4b74-a0ce-f4f27866358f&api_key=CometServer1&access_token=1691010839_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_81f7f47537afd72384730a355968357c632828c6" alt=""/>
+      <img className='  w-[33.541666666666664%] ' src="https://i.pinimg.com/750x/63/e6/25/63e625078467c5ac61a4f0ccf0e1b416.jpg" alt=""/>
 
       </div>
       </div>
