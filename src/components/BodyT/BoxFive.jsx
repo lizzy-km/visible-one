@@ -45,11 +45,11 @@ const BoxFive = ({num}) => {
            setDesk(' ml-[-920px] w-[100%] h-auto flex flex-col items-end bg-   ')
          }} className={Desk} >
            <div className=' flex justify-start items-center w-[30%] h-[200px]  '>
-             <img className=' h-[126.1px] mt-[5px] pr-[10px]  ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=be2db83b-91b6-454c-badc-e32fb4af7930&api_key=CometServer1&access_token=1691074605_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_d945895615534b19a96f44895df8b28a12aaf9cb" alt=""/>
+             <img className=' h-[126.1px] mt-[5px] pr-[10px]  ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=19a053e0-68aa-4b1d-8e6a-4cbdc7db6ce7&api_key=CometServer1&access_token=1691074605_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_d945895615534b19a96f44895df8b28a12aaf9cb" alt=""/>
            </div>
              <div className='relative justify-end flex items-end w-[100%] h-auto py-[1rem] data-box-active ' >
-               <div className=' z-[99999] p-[14px] flex justify-start items-start rounded-[8px] desktop absolute left-5 top-[-50%] h-[168px] w-[239px]' >
-                 <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=05e7907a-4c61-48e7-a806-889a770db8eb&api_key=CometServer1&access_token=1691074605_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_d945895615534b19a96f44895df8b28a12aaf9cb" alt=""/>
+               <div className=' z-[99999] p-[7px] flex justify-start items-start rounded-[8px] desktop absolute left-5 top-[-50%] h-[168px] w-[239px]' >
+                 <img className='h-[128px] w-[239px]' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=05e7907a-4c61-48e7-a806-889a770db8eb&api_key=CometServer1&access_token=1691074605_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_d945895615534b19a96f44895df8b28a12aaf9cb" alt=""/>
                </div>
                <div className=' w-[100%] flex flex-col justify-start items-start gap-6 p-[1rem] ' >
                  <div>
