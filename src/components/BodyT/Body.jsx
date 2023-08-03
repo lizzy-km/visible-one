@@ -18,7 +18,7 @@ const BodyT = () => {
           <div className=' px-[4rem] pb-[9rem]  w-[100%] justify-center gap-3   flex items-center ' >
             <div className='   flex items-center gap-[15px]  ' >
             <h1 className=' font-semibold text-[18px]  ' >Built for:</h1>
-            <img className=' w-[40px] h-[40px]  ' src="/src/assets/responsive.svg" alt=""/>
+            <img className=' w-[40px] h-[40px]  ' src="https://raw.githubusercontent.com/lizzy-km/cloudy-km/df6b4eae5981aba0d27a4846a81fdfc5b8ab1cb5/responsive%402x.png" alt=""/>
          
             </div>
             <div className='   flex justify-center items-center  gap-[5px]  ' >
@@ -26,7 +26,7 @@ const BodyT = () => {
               <p className=' text-[18px] '>Technologies:</p>
               <p className=' text-[18px] font-semibold ' >Wordpress</p>
             </div>
-            <img className=' w-[40px] h-[40px] object-cover ' src="/src/assets/wordpress-development-logo-banner.svg" alt=""/>
+            <img className=' w-[40px] h-[40px] object-cover ' src="https://raw.githubusercontent.com/lizzy-km/cloudy-km/df6b4eae5981aba0d27a4846a81fdfc5b8ab1cb5/wordpress-development-logo-banner%402x.png" alt=""/>
          
             </div>
             <div className='   flex justify-center items-center  gap-[5px]  ' >
@@ -34,7 +34,7 @@ const BodyT = () => {
               <p className=' text-[18px] '>Industry:</p>
               <p className=' text-[18px] font-semibold ' >Ecommerce</p>
             </div>
-            <img className=' w-[40px] h-[40px] object-cover ' src="/src/assets/shopping-cart.svg" alt=""/>
+            <img className=' w-[40px] h-[40px] object-cover ' src="https://raw.githubusercontent.com/lizzy-km/cloudy-km/df6b4eae5981aba0d27a4846a81fdfc5b8ab1cb5/shopping-cart%402x.png" alt=""/>
          
             </div>
             </div>
