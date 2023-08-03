@@ -114,7 +114,7 @@ const BoxFive = ({num}) => {
             </div>
               <div className='relative w-[59%] flex justify-center items-start h-full data-box-active ' >
               <div className=' flex py-[10px] flex-col justify-between phone absolute left-[-15%] w-[186.542px] rounded-[40px] h-full bg-[#ffffff] ' >
-                  <div className=' flex flex-col w-[100%] justify-start items-center gap-4 py-[.2rem] ' >
+                  <div className=' flex flex-col w-[100%] justify-start items-center gap-2 py-[.2rem] ' >
                     <div className=' w-[6px] h-[6px] rounded-full bg-[#121212] ' >
                       
                     </div>
@@ -131,7 +131,7 @@ const BoxFive = ({num}) => {
                   </div>
 
                   <div className=' w-[100%] px-[10px]  flex justify-center items-center ' >
-                    <img className='  border-[#72727294] rounded-md border-[1px]   ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=0a776c3e-b64e-4c77-a880-8e8e14b7c8a7&api_key=CometServer1&access_token=1691074605_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_d945895615534b19a96f44895df8b28a12aaf9cb" alt=""/>
+                    <img className='  border-[#7272723e] rounded-md border-[1px]   ' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f;revision=0?component_id=0a776c3e-b64e-4c77-a880-8e8e14b7c8a7&api_key=CometServer1&access_token=1691074605_urn%3Aaaid%3Asc%3AUS%3A44b7b4d2-e03d-4e25-8fa0-35fcbb2b490f%3Bpublic_d945895615534b19a96f44895df8b28a12aaf9cb" alt=""/>
                   </div>
 
                   <div className=' flex w-[100%] pt-[5px] justify-center items-center ' >
