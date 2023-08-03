@@ -7,7 +7,7 @@ const NavBarT = () => {
     >
         <div className=' flex flex-col justify-between items-center px-[1rem]   bg-slate-200  w-[100%]  h-auto '>
         <div className=' bg-slate-100 rounded-b-2xl  ' >
-            <img className='  h-[60px]  bg-white rounded-b-2xl ' src="https://dmwnucuzzd3uc.cloudfront.net/image/o9SXyF4kPWv_4nhtaCnNLF7UNW_ctaPmFJ_4aZ0Holmn3lvFoyV-Mp4aKSwqi838KO5obcFU-4evQnxtHyE6Sg==" alt=""/>
+            <img className='  h-[45px] w-[175px]  bg-white rounded-b-2xl ' src="https://dmwnucuzzd3uc.cloudfront.net/image/o9SXyF4kPWv_4nhtaCnNLF7UNW_ctaPmFJ_4aZ0Holmn3lvFoyV-Mp4aKSwqi838KO5obcFU-4evQnxtHyE6Sg==" alt=""/>
         </div>
 
         <div  className=' w-[100%] flex justify-between py-[.6rem]  items-center '>
