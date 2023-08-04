@@ -9,10 +9,10 @@ import BoxFive from './BoxFive';
 const BodyM = () => {
   
   return (
-    <div className=' overflow-x-hidden flex flex-col w-[100%] gap-[10rem] h-auto justify-center items-center ' >
+    <div className=' overflow-x-hidden flex flex-col w-[100%] gap-[6rem] h-auto justify-center items-center ' >
       <div className='relative h-auto justify-start items-start w-[100%] flex flex-col ' >
-        <div className='heroM  h-auto pb-[1rem]  gap-[5px] text-[#ffffff] w-[100%]  bg-[#12121278] flex items-center flex-col ' >
-          <div className='px-[1rem]  h-auto pb-[3rem] gap-[5px] text-[#ffffff] w-[100%]  bg-[#12121278] flex items-center flex-col '>
+        <div className='heroM  h-auto pb-[0rem]  gap-[5px] text-[#ffffff] w-[100%]  bg-[#12121278] flex items-center flex-col ' >
+          <div className='px-[1rem]  h-auto pb-[4rem] gap-[5px] text-[#ffffff] w-[100%]  bg-[#12121278] flex items-center flex-col '>
           <p className=' text-[16px] pt-[34px] ' >TRIPPRO - AN ECOMMERCE SOLUTION</p>
           <p className=' font-light w-[100%] text-center text-[10px]   ' >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
           <div className=' px-[1rem]  w-[100%%] justify-between gap-4   flex items-center ' >
