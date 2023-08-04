@@ -24,7 +24,7 @@ const BoxFive = ({num}) => {
         }
       }, [control, inView]);
 
-     const[mobile,setMobile] = useState(' mr-[-920px] w-[100%] h-auto flex flex-col items-center ')
+     const[mobile,setMobile] = useState(' mr-[-920px] mt-[2rem] w-[100%] h-auto flex flex-col items-center ')
      const[Desk,setDesk] = useState(' mb-[-2rem]  w-[100%] h-auto py-[2rem] flex justify-end flex-col items-end  bg-    ')
 
 
@@ -37,11 +37,11 @@ const BoxFive = ({num}) => {
       className='box flex mt-[-8rem] h-auto items-end overflow-y-hidden overflow-x-hidden max-w-[100%] justify-between ' >
         <div
         onDrag={()=>{
-          setMobile(' mr-[-10px]  w-[105%]h-auto flex flex-col items-center ')
+          setMobile(' mr-[-10px] mt-[2rem]  w-[105%]h-auto flex flex-col items-center ')
           setDesk(' ml-[-920px] w-[100%] h-auto flex flex-col items-end bg-   ')
         }}
          onClick={()=>{
-          setMobile(' mr-[-10px]  w-[105%] h-auto flex flex-col items-center  ')
+          setMobile(' mr-[-10px] mt-[2rem]  w-[105%] h-auto flex flex-col items-center  ')
           setDesk(' ml-[-920px] w-[100%] h-auto flex flex-col items-end bg-   ')
         }} className={Desk} >
           <div className=' flex justify-end items-center w-[100%] h-full  '>
