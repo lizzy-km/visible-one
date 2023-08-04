@@ -14,6 +14,10 @@ import BodyM from './components/BodyM/Body'
 import BodyT from './components/BodyT/Body'
 import { useState } from 'react'
 import { inject } from '@vercel/analytics';
+
+import { Analytics } from '@vercel/analytics/react';
+ 
+<Analytics mode={'production'} />;
  
 inject();
 
