@@ -13,6 +13,9 @@ import { IconPhone,IconMail,IconFileDescription,IconCaretDown,IconChevronDown,Ic
 import BodyM from './components/BodyM/Body'
 import BodyT from './components/BodyT/Body'
 import { useState } from 'react'
+import { inject } from '@vercel/analytics';
+ 
+inject();
 
 function App() {
 

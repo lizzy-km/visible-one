@@ -47,6 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tabler/icons-react", "virtual:11dc92fb04516540c614367c754cdb0feb992ff1ba18033776e947d8fe9b9c8be3de37cb7b31b46d9acde5b06bc80e5240c5bba29e58e98f060dbe1a9ea0c409#npm:2.30.0"],\
             ["@types/react", "npm:18.2.18"],\
             ["@types/react-dom", "npm:18.2.7"],\
+            ["@vercel/analytics", "npm:1.0.1"],\
             ["@vitejs/plugin-react", "virtual:11dc92fb04516540c614367c754cdb0feb992ff1ba18033776e947d8fe9b9c8be3de37cb7b31b46d9acde5b06bc80e5240c5bba29e58e98f060dbe1a9ea0c409#npm:3.1.0"],\
             ["autoprefixer", "virtual:11dc92fb04516540c614367c754cdb0feb992ff1ba18033776e947d8fe9b9c8be3de37cb7b31b46d9acde5b06bc80e5240c5bba29e58e98f060dbe1a9ea0c409#npm:10.4.14"],\
             ["dayjs", "npm:1.11.9"],\
@@ -1830,6 +1831,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-use-sync-external-store-npm-0.0.3-875a91a914-161ddb8eec.zip/node_modules/@types/use-sync-external-store/",\
           "packageDependencies": [\
             ["@types/use-sync-external-store", "npm:0.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@vercel/analytics", [\
+        ["npm:1.0.1", {\
+          "packageLocation": "./.yarn/cache/@vercel-analytics-npm-1.0.1-545fdc4bb4-6876e1d086.zip/node_modules/@vercel/analytics/",\
+          "packageDependencies": [\
+            ["@vercel/analytics", "npm:1.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5046,6 +5056,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tabler/icons-react", "virtual:11dc92fb04516540c614367c754cdb0feb992ff1ba18033776e947d8fe9b9c8be3de37cb7b31b46d9acde5b06bc80e5240c5bba29e58e98f060dbe1a9ea0c409#npm:2.30.0"],\
             ["@types/react", "npm:18.2.18"],\
             ["@types/react-dom", "npm:18.2.7"],\
+            ["@vercel/analytics", "npm:1.0.1"],\
             ["@vitejs/plugin-react", "virtual:11dc92fb04516540c614367c754cdb0feb992ff1ba18033776e947d8fe9b9c8be3de37cb7b31b46d9acde5b06bc80e5240c5bba29e58e98f060dbe1a9ea0c409#npm:3.1.0"],\
             ["autoprefixer", "virtual:11dc92fb04516540c614367c754cdb0feb992ff1ba18033776e947d8fe9b9c8be3de37cb7b31b46d9acde5b06bc80e5240c5bba29e58e98f060dbe1a9ea0c409#npm:10.4.14"],\
             ["dayjs", "npm:1.11.9"],\
