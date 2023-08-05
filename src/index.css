@@ -12,3 +12,6 @@
 body{
     overflow-x: hidden;
 }
+.none{
+    display: none !important;
+}

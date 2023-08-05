@@ -69,11 +69,11 @@ const BoxFour = () => {
        initial="hidden"
        animate={control}
       className='box flex flex-col items-start w-[100%] pl-[5px] scroll-w-0  overflow-auto gap-[23px] max-h-[500px] justify-between ' >
-        <div id='none' className=' px-[10px] flex flex-col items-start w-[100%] overflow-auto gap-[34px] max-h-[500px] justify-between  ' >
+        <div id='none' className=' opacity-60 px-[10px] flex flex-col items-start w-[100%] overflow-auto gap-[30px] max-h-[500px] justify-between  ' >
         {
             loader?.map(data =>{
                 return(
-                    <div key={data?.key} id={data.id} className='flex text-[#ffffff] w-[680px] min-h-[76px] cursor-pointer  items-center justify-start gap-[20px] data-box-active px-[22px]' >
+                    <div key={data?.key} id={data.id} className='flex text-[#ffffff] w-[680px] min-h-[68px] cursor-pointer  items-center justify-start gap-[20px] data-box-active px-[22px]' >
                         Loading . . .
                     </div>
                 )

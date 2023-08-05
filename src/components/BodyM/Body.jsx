@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import BoxOne from './BoxOne';
 import BoxTwo from './BoxTwo';
@@ -7,6 +7,10 @@ import BoxFour from './BoxFour';
 import BoxFive from './BoxFive';
 
 const BodyM = () => {
+
+  const[dataB,setDataB] = useState('box flex flex-col items-start w-[100%] pl-[5px] scroll-w-0  overflow-hidden gap-[14px] max-h-[352px] justify-between ')
+  const[LdataB,setLDataB] = useState(' opacity-60 flex flex-col items-start w-[100%] overflow-auto gap-[16px] max-h-[352px] justify-between  ')
+  const[view,setView] = useState(false)
   
   return (
     <div className=' overflow-x-hidden flex flex-col w-[100%] gap-[6rem] h-auto justify-center items-center ' >
@@ -64,11 +68,27 @@ const BodyM = () => {
                 <h1>OUR</h1>
                 <h1 className=' text-[#2DC4EA] ' >CHALLENGES</h1>
             </div>
-            <BoxFour num={1} />
-
-            <div className='  cursor-pointer flex items-center justify-center w-[110px] h-[44px] View rounded-[50px] ' >
-            <p className=' text-[12px] text-[#ffffff] font-bold ' >VIEW MORE</p>
-        </div>
+            <BoxFour LdataB={LdataB} setLDataB={setLDataB} 
+            dataB={dataB} setDataB={setDataB} num={1} />
+              {
+                view ===false &&   <div onClick={()=> {
+                  setView(!view)
+                  setDataB('box flex flex-col items-start w-[100%] pl-[5px] scroll-w-0  overflow-hidden gap-[15px] max-h-[700px] justify-between')
+                  setLDataB(' none opacity-60 flex flex-col items-start w-[100%] overflow-auto gap-[16px] max-h-[0px] justify-between  ')
+                  }} className='  cursor-pointer flex items-center justify-center w-[110px] h-[44px] View rounded-[50px] ' >
+                <p className=' text-[12px] text-[#ffffff] font-bold ' >VIEW MORE</p>
+            </div>
+              }
+               {
+                view ===true &&   <div onClick={()=> {
+                  setView(!view)
+                  setDataB('box flex flex-col items-start w-[100%] pl-[5px] scroll-w-0  overflow-hidden gap-[14.2px] max-h-[352px] justify-between')
+                  setLDataB('  opacity-60 flex flex-col items-start w-[100%] overflow-auto gap-[16px] max-h-[352px] justify-between  ')
+                  }} className='  cursor-pointer flex items-center justify-center w-[110px] h-[44px] View rounded-[50px] ' >
+                <p className=' text-[12px] text-[#ffffff] font-bold ' >VIEW LESS</p>
+            </div>
+              }
+           
         </div>
       </div>
 

@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import DataBoxM from '../DataBoxM';
 
-const BoxFour = ({num}) => {
+const BoxFour = ({num,dataB,LdataB}) => {
 
     const loader = [
         {
@@ -64,15 +64,14 @@ const BoxFour = ({num}) => {
         // box.style.visibility = 'hidden';
       }, 2000); // 👈️ time in milliseconds
 
-      
   return (
     <motion.div
     ref={ref}
        variants={boxVariant}
        initial="hidden"
        animate={control}
-      className='box flex flex-col items-start w-[100%] pl-[5px] scroll-w-0  overflow-hidden gap-[14px] max-h-[352px] justify-between ' >
-        <div id='none' className=' flex flex-col items-start w-[100%] overflow-auto gap-[16px] max-h-[352px] justify-between  ' >
+      className={dataB} >
+        <div id='none' className={LdataB} >
         {
             loader?.map(data =>{
                 return(
