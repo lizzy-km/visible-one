@@ -68,7 +68,7 @@ const BoxFour = () => {
        variants={boxVariant}
        initial="hidden"
        animate={control}
-      className='box flex flex-col items-start w-[100%] pl-[5px] scroll-w-0  overflow-auto gap-[23px] max-h-[500px] justify-between ' >
+      className='box flex flex-col items-start w-[100%] pl-[5px] pb-[10px] scroll-w-0  overflow-auto gap-[23px] max-h-[500px] justify-between ' >
         <div id='none' className=' opacity-60 px-[10px] flex flex-col items-start w-[100%] overflow-auto gap-[30px] max-h-[500px] justify-between  ' >
         {
             loader?.map(data =>{
@@ -82,7 +82,7 @@ const BoxFour = () => {
         </div>
        
        {
-        post?.map(post =>{
+        post?.slice(0,10).map(post =>{
             return(
                 <DataBox key={post?.id}  post={post} />
             )

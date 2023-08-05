@@ -69,7 +69,7 @@ const BoxFour = () => {
        variants={boxVariant}
        initial="hidden"
        animate={control}
-      className='box flex flex-col items-start w-[338px] pl-[5px] scroll-w-0  overflow-auto gap-[14px] max-h-[252px] justify-between ' >
+      className='box flex flex-col pb-[10px] items-start w-[338px] pl-[5px] scroll-w-0  overflow-auto gap-[14px] max-h-[252px] justify-between ' >
         <div id='none' className=' flex flex-col items-start w-[100%] overflow-auto gap-[14px] max-h-[252px] justify-between  ' >
         {
             loader?.map(data =>{
@@ -83,7 +83,7 @@ const BoxFour = () => {
         </div>
        
        {
-        post?.map(post =>{
+        post?.slice(0.10).map(post =>{
             return(
                 <DataBoxT  key={post?.id}  post={post} />
             )
