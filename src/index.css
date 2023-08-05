@@ -6,8 +6,8 @@
 *{
     font-family: 'Nunito', sans-serif;
     font-size: 14px;
-    transition: 400ms;
-    /* overflow-x: hidden; */
+    transition: 400ms ease-in-out  ;
+    animation: ease-in-out;
 }
 body{
     overflow-x: hidden;

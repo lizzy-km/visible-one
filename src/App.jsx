@@ -23,7 +23,7 @@ inject();
 
 function App() {
 
-  const [side,setSide]=useState(' none absolute overflow-hidden menu bg-[#ffffffa0] h-screen z-[1] right-[-700px] w-[100%] ')
+  const [side,setSide]=useState('  absolute overflow-hidden menu bg-[#ffffffa0] h-screen z-[1] right-[-100%] w-0 ')
 
   const[cont,setCont] = useState(' flex flex-col items-start overflow-hidden max-h-[30px] font-medium ')
 

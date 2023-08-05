@@ -42,7 +42,7 @@ const boxVariant = {
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita</p>
     </div>
 
-    <div className=' z-[999] data-box-active mt-[-10px] flex justify-center items-center w-[120px] h-[34px] rounded-[10px] ' >
+    <div className='  data-box-active mt-[-10px] flex justify-center items-center w-[120px] h-[34px] rounded-[10px] ' >
         <p className= 'text-[10px] text-[#282727] ' >TOUR TO WEBSITE</p>
     </div>
   </motion.div>
