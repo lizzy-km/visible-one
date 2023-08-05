@@ -35,7 +35,7 @@
 
 .footer {
   background-image: url('https://i.pinimg.com/originals/83/0e/0b/830e0b12f0835fccbfffce5514c1ff80.jpg');
-  background-position: 0px -490px;
+  background-position: 0px -200px;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -59,7 +59,7 @@
 }
 
 .footer_b {
-  backdrop-filter: saturate(0);
+  backdrop-filter: saturate(.3);
 }
 
 li {

@@ -9,7 +9,7 @@ import {IconMail,
 const Footer =()=>{
   return (
     <div className=' footer flex w-[100%] h-[400px] ' >
-        <div className=' flex flex-col text-slate-100 w-[100%] h-[100%] bg-[#12121294] footer_b px-[10rem] py-[1rem] justify-between ' >
+        <div className=' flex flex-col text-slate-100 w-[100%] h-auto] bg-[#121212a1] footer_b px-[10rem] py-[1rem] justify-between ' >
               <div className='flex w-[100%] h-[67%] justify-between  ' >
                 
                 <div className=' gap-3 flex flex-col justify-start items-start ' >
@@ -78,7 +78,7 @@ const Footer =()=>{
 
                 </div>
               </div>
-              <div className='flex w-[100%] border-t-[1px] border-b-[1px] border-slate-400 py-[.5rem]  h-[20%] justify-between  ' >
+              <div className='flex w-[100%] border-t-[1px] border-b-[1px] pb-[4px] border-slate-400 py-[.5rem]  h-[22%] justify-between  ' >
                 <div className=' flex items-end justify-start gap-10 w-[60%] ' >
                   <img className=' h-[40px] '  src="/src/assets/shopify-2.svg" alt=""/>
                   <img className=' h-[40px] '  src="/src/assets/paypal-3.svg" alt=""/>
@@ -102,7 +102,7 @@ const Footer =()=>{
                  
                 </div>
               </div>
-              <div className='flex flex-col w-[100%] h-[20%] justify-center gap-3 items-center  ' >
+              <div className='flex flex-col w-[100%] pt-[5px] h-[20%] justify-center gap-3 items-center  ' >
                 <div className=' flex gap-5 ' >
                 <div className=' flex items-center '>
                     <IconBrandFacebookFilled/>
